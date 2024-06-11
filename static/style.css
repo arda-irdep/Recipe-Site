@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #D1BB9E
+}
+
+#main-div{
+    text-align: center;
+}
+
+.recipe{
+    display: inline-block;
+    margin: 2rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.recipe_text{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20rem;
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.inner_div{
+    opacity: 0%;
+    background-color: black;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.recipe:hover .inner_div{
+    opacity: 80%;
+    transition: opacity 0.3s; 
+}
+
+#pasta_recipe_div{
+    background-image: url(/static/images/carbonara-image.jpg);   
+}
+
+#chiken_recipe_div{
+    background-image: url(/static/images/chiken.jpg);
+}
+
+
+#cookies_recipe_div{
+    background-image: url(/static/images/cookies.jpg);
+}
+
+#beef_recipe_div{
+    background-image: url(/static/images/beef.jpg);
+    
+}
+
+#curry_recipe_div{
+    background-image: url(/static/images/curry.jpg);
+    
+}
+
+#salad_recipe_div{
+    background-image: url(/static/images/salad.jpg);
+    
+}
+
+
+#ratatouille_recipe_div{
+    background-image: url(/static/images/ratatouille.jpg);
+    
+}
+
+#pancake_recipe_div{
+    background-image: url(/static/images/pancakes.jpg);
+    
+}
+
+#taco_recipe_div{
+    background-image: url(/static/images/tacos.jpg);   
+}

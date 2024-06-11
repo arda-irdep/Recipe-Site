@@ -1,0 +1,96 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #DBA979;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chicken_body{
+    background-color: #df8952;
+}
+
+#cookies_body{
+    background-color: #84563c;
+}
+
+#beef_body{
+    background-color:#D2B48C;
+}
+
+#curry_body{
+    background-color: #C9A771;
+}
+
+#salad_body{
+    background-color: #9eb67b;
+}
+
+#ratatouille_body{
+    background-color: #e7964c;
+}
+
+#pancakes_body{
+    background-color: #F5DEB3;
+}
+
+#tacos_body{
+    background-color: #f5d2c2
+}
+
+#main_div{
+    margin: 20px;
+    border:5px solid #b08862;
+    border-radius: 20px;
+}
+
+#recipe_name {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#prep_and_cooking_time_div{
+    text-align: center;
+    font-size: 30px;
+}
+
+#ingredients_text {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#ingredients {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+li {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.steps{
+    margin-top: 2rem;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#return_home{
+    color: black;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3rem;
+}

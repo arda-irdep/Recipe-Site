@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sql Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="/static/script.js"></script>
+</head>
+<body>
+<div id="main-div">
+
+    <h1>Recipe Site</h1>
+
+    <input style="width: 20rem; height: 1.2rem; border-radius: 15px;" type="text" id="searchInput" placeholder="Search for recipe..." onkeyup="Search()">
+
+    <div class="row">
+
+        <div id="pasta_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" id="pasta_recipe_text" href="/pasta">{{ recipe[0][1] }}</a>
+            </div>
+        </div>        
+
+        <div id="chiken_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/chicken">{{ recipe[1][1] }}</a>
+            </div>
+        </div>
+
+        <div id="cookies_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/cookies">{{ recipe[2][1] }}</a>
+            </div>           
+        </div>
+    </div>
+    
+    <div class="row">
+
+        <div id="beef_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/beef">{{ recipe[3][1] }}</a>
+            </div>
+        </div>
+
+        <div id="curry_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/cury">{{ recipe[4][1] }}</a>
+            </div>
+        </div>
+
+        <div id="salad_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/salad">{{ recipe[5][1] }}</a>
+            </div>
+        </div>
+    </div>
+
+   <div class="row">
+
+        <div id="ratatouille_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/ratatouille">{{ recipe[6][1] }}</a>
+            </div>
+        </div>
+
+        <div id="pancake_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/pancakes">{{ recipe[7][1] }}</a>
+            </div>
+        </div>
+
+        <div id="taco_recipe_div" class="recipe">
+            <div class="inner_div">
+                <a class="recipe_text" href="/tacos">{{ recipe[8][1] }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
