@@ -12,7 +12,7 @@ git clone https://github.com/arda-irdep/Recipe_Website.git
 Step 2: Change into the folder
 After cloning the repository, navigate into the newly created folder using the following command:
 
-cd Recipe_Website
+    cd Recipe_Website
 
 This should take you inside the project's main working directory.
 
