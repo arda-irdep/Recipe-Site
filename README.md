@@ -3,11 +3,11 @@
 Step 1: Clone the repository
 To get a copy of this project on your local machine, follow these steps:
 
-    Open your terminal or command prompt.
-    Navigate to the directory where you want to store this project (e.g., ~/Documents).
-    Type the following command and press Enter:
+Open your terminal or command prompt.
+Navigate to the directory where you want to store this project (e.g., ~/Documents).
+Type the following command and press Enter:
 
-git clone https://github.com/arda-irdep/Recipe_Website.git
+    git clone https://github.com/arda-irdep/Recipe_Website.git
 
 Step 2: Change into the folder
 After cloning the repository, navigate into the newly created folder using the following command:
